@@ -17,3 +17,12 @@ spring:
 
 build:
   version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related local APIs"
+  contactDetails:
+    name: "Miguel Jarecca - Developer"
+    email: "miguel.jarecca@gmail.com"
+  onCallSupport:
+    - 970449496
+    - 970449496
