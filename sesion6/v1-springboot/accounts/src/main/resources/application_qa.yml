@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related QA APIs"
+  contactDetails:
+    name: "Teofilo - QA Lead"
+    email: "teofilo@gmail.com"
+  onCallSupport:
+    - 980449496
+    - 980449496
