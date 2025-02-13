@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related prod APIs"
+  contactDetails:
+    name: "filo - Product Owner"
+    email: "filo@gmail.com"
+  onCallSupport:
+    - 990449496
+    - 990449496
