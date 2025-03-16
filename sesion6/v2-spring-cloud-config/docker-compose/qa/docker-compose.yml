@@ -12,7 +12,7 @@ services:
       retries: 10
       start_period: 5s
     extends:
-      file: ../prod/common-config.yml
+      file: common-config.yml
       service: network-deploy-service
 
   configserver:
@@ -30,7 +30,7 @@ services:
       retries: 10
       start_period: 10s
     extends:
-      file: ../prod/common-config.yml
+      file: common-config.yml
       service: microservice-base-config
 
   accounts:
@@ -44,7 +44,7 @@ services:
     environment:
       SPRING_APPLICATION_NAME: "accounts"
     extends:
-      file: ../prod/common-config.yml
+      file: common-config.yml
       service: microservice-configserver-config
 
   loans:
@@ -58,7 +58,7 @@ services:
     environment:
       SPRING_APPLICATION_NAME: "loans"
     extends:
-      file: ../prod/common-config.yml
+      file: common-config.yml
       service: microservice-configserver-config
 
   cards:
@@ -72,7 +72,7 @@ services:
     environment:
       SPRING_APPLICATION_NAME: "cards"
     extends:
-      file: ../prod/common-config.yml
+      file: common-config.yml
       service: microservice-configserver-config
 
 networks:
