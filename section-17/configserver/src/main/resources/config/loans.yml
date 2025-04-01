@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to EazyBank loans related local APIs"
+  contactDetails:
+    name: "Jose - Developer"
+    email: "jose@gmail.com"
+  onCallSupport:
+    - 970449496
+    - 970449496
