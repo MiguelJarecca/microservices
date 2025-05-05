@@ -1,6 +1,5 @@
 package com.easybytes.accounts.exception;
 
-import com.easybytes.accounts.dto.ErrorResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

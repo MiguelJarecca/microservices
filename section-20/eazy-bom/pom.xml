@@ -8,10 +8,7 @@
     <name>eazy-bom</name>
     <description>Common BOM for eazybank microservices </description>
     <packaging>pom</packaging>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
+
     <developers>
         <developer>
             <name>Miguel Jarecca</name>
@@ -36,9 +33,16 @@
         <jib.version>3.4.2</jib.version>
         <image.tag>s20</image.tag>
     </properties>
+    <modules>
+        <module>common</module>
+    </modules>
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

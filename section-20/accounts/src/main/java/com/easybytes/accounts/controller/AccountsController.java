@@ -3,7 +3,6 @@ package com.easybytes.accounts.controller;
 import com.easybytes.accounts.constans.AccountsConstants;
 import com.easybytes.accounts.dto.AccountsContactInfoDto;
 import com.easybytes.accounts.dto.CustomerDto;
-import com.easybytes.accounts.dto.ErrorResponseDto;
 import com.easybytes.accounts.dto.ResponseDto;
 import com.easybytes.accounts.service.IAccountsService;
 import io.github.resilience4j.ratelimiter.annotation.RateLimiter;

@@ -1,7 +1,6 @@
 package com.easybytes.loans.controller;
 
 import com.easybytes.loans.constants.LoansConstants;
-import com.easybytes.loans.dto.ErrorResponseDto;
 import com.easybytes.loans.dto.LoansContactInfoDto;
 import com.easybytes.loans.dto.LoansDto;
 import com.easybytes.loans.dto.ResponseDto;

@@ -3,7 +3,6 @@ package com.easybytes.cards.controller;
 import com.easybytes.cards.constants.CardsConstants;
 import com.easybytes.cards.dto.CardsContactInfoDto;
 import com.easybytes.cards.dto.CardsDto;
-import com.easybytes.cards.dto.ErrorResponseDto;
 import com.easybytes.cards.dto.ResponseDto;
 import com.easybytes.cards.service.ICardsService;
 import io.swagger.v3.oas.annotations.Operation;
